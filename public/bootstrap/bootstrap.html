@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bootstrap Example</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">-->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>-->
+
+
+</head>
+<body>
+
+<div class="container">
+    <div class="jumbotron">
+        <h1>My first Bootstrap page <small>enjoy</small></h1>
+    </div>
+    <div class="row">
+        <div class="col-sm-4">This is the first row in a column<br>It is important to do so.</div>
+        <div class="col-sm-4">.col-sm-4</div>
+        <div class="col-sm-4">.col-sm-4</div>
+    </div>
+
+    <div class="bg-primary">
+        <div class="col-sm-4">.col-sm-4</div>
+        <div class="col-sm-4">.col-sm-4</div>
+        <div class="col-sm-4">.col-sm-4</div>
+    </div>
+    <div class="bg-success">
+        <div class="col-sm-4">.col-sm-4</div>
+        <div class="col-sm-4">.col-sm-4</div>
+        <div class="col-sm-4">.col-sm-4</div>
+    </div>
+    <div class="bg-warning">
+        <div class="col-sm-4">.col-sm-4</div>
+        <div class="col-sm-4">.col-sm-4</div>
+        <div class="col-sm-4">.col-sm-4</div>
+    </div>
+    <div class="bg-danger">
+        <div class="col-sm-4">.col-sm-4</div>
+        <div class="col-sm-4">.col-sm-4</div>
+        <div class="col-sm-4">.col-sm-4</div>
+    </div>
+    <div class="bg-info">
+        <div class="col-sm-4">.col-sm-4</div>
+        <div class="col-sm-4">.col-sm-4</div>
+        <div class="col-sm-4">.col-sm-4</div>
+    </div>
+    <h2>Abbreviatons</h2>
+    <p>The <abbr title="World Health Organization">WHO</abbr> was founded on 1948</p>
+    <p>This is how a <mark style="color: green">mark tag</mark> is used</p>
+
+    <div class="container">
+        <h2>Contextual colors</h2>
+        <p>Use the contextual classes to provide "meaning through colors" :</p>
+        <p class="text-muted">This text is muted</p>
+        <p class="text-primary">This text is important</p>
+        <p class="text-success">This text indicates success</p>
+        <p class="text-info">This text represents some information</p>
+        <p class="text-warning">This text represents a warning</p>
+        <p class="text-danger">This text represents danger</p>
+    </div>
+
+    <div class="container">
+        <h2>Basic Tables</h2>
+        <P>The .table class adds basic styling (light padding and only horizontal dividers) to a table:</P>
+        <table class="table table-condensed">
+            <thead>
+            <tr>
+                <th>Firstname</th>
+                <th>Lastname</th>
+                <th>Email</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td>John</td>
+                <td>Doe</td>
+                <td>john@example.com</td>
+            </tr>
+            <tr>
+                <td>Mary</td>
+                <td>Jane</td>
+                <td>mary@example.com</td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <h2>Images with bootstrap</h2>
+    <p>Rounded and circle images</p>
+    <img src="../../img/download.jpg" class="img-circle" alt="Plant">
+    <img src="../../img/download.jpg" class="img-thumbnail" alt="Plant">
+    <img src="../../img/download.jpg" class="img-rounded" alt="Plant">
+
+    <p>Responsive images</p>
+    <img class="img-responsive img-rounded" src="../../img/plant.jpg" alt="plant">
+</div>
+
+<h2>IMAGE GALLERY</h2>
+<div class="row">
+    <div class="col-md-4">
+        <div class="thumbnail">
+            <a href="../../img/united.jpg">
+                <img src="../../img/united.jpg" alt="United logo" style="width: 100%">
+                <div class="caption">
+                    <p>Lorem ipsum...</p>
+                </div>
+            </a>
+        </div>
+    </div>
+    <div class="col-md-4">
+        <div class="thumbnail">
+            <a href="../../img/chelsea.jpg">
+                <img src="../../img/chelsea.jpg" alt="Chelsea logo" style="width: 100%">
+                <div class="caption">
+                    <p>Lorem ipsum...</p>
+                </div>
+            </a>
+        </div>
+    </div>
+</div>
+
+<h2>Embed</h2>
+<div class="embed-responsive embed-responsive-16by9">
+<!--    <iframe class="embed-responsive-item" src=""></iframe>-->
+    <iframe  class="embed-responsive-item" width="560" height="315" src="https://www.youtube.com/embed/EjU9W2tEQ4E" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
+<div class="container">
+    <div class="jumbotron">
+        <p>This is an important message</p>
+    </div>
+
+    <div class="page-header">
+        <h1>Example Page Header</h1>
+    </div>
+
+    <div class="well">Basic well</div>
+    <div class="well well-sm">Small well</div>
+    <div class="well well-lg">Large well</div>
+
+    <h1>Alert</h1>
+    <div class="alert alert-success">
+        <strong>Success!</strong>Indicates a successful or positive action.
+    </div>
+    <div class="alert alert-info">
+        <strong>Info!</strong>Indicates a neutral informative change or action.
+    </div>
+    <div class="alert alert-warning">
+        <strong>Warning!</strong>Indicates a warning that might need attention
+    </div>
+    <div class="alert alert-danger">
+        <strong>Danger!</strong> This alert box could indicate a dangerous or potentially negative action.
+    </div>
+    <h3>Alert-link class</h3>
+    <div class="alert alert-success">
+        <strong>Success!</strong>You should<a href="https://www.google.com" class="alert-link"> read this message</a>
+    </div>
+    <h3>Alert-close</h3>
+    <div class="alert alert-success alert-dismissible">
+        <a href="#" class="close" data-dismiss="alert" aria-label="close"> &times;</a>
+        blah blah blah
+        <strong>Success!</strong>Indicates a successful or positive action.
+    </div>
+
+    <h3>Buttons</h3>
+    <button type="button" class="btn">Basic</button>
+    <button type="button" class="btn-danger">Danger</button>
+    <button type="button" class="btn btn-default">Default</button>
+    <button type="button" class="btn btn-primary">Primary</button>
+    <button type="button" class="btn btn-success">Success</button>
+    <button type="button" class="btn btn-info">Info</button>
+    <button type="button" class="btn btn-warning">Warning</button>
+    <button type="button" class="btn btn-link">Link</button>
+
+    <h4>links</h4>
+    <a href="https://www.google.com" class="btn btn-info" role="button">Link Button</a>
+    <button type="button" class="btn btn-info">Button</button>
+    <input type="button" class="btn btn-info" value="Input Button">
+    <input type="submit" class="btn btn-info" value="Submit Button">
+
+    <h4>Button sizes</h4>
+    <button type="button" class="btn btn-primary btn-lg">Large</button>
+    <button type="button" class="btn btn-primary">Normal</button>
+    <button type="button" class="btn btn-primary btn-sm">small</button>
+    <button type="button" class="btn btn-primary btn-xs">Xsmall</button>
+
+    <h4>Button groups</h4>
+    <div class="btn-group btn-group-lg">
+        <button type="button" class="btn btn-primary">Apple</button>
+        <button type="button" class="btn btn-primary">Techno</button>
+        <button type="button" class="btn btn-primary">Samsung</button>
+    </div>
+    <h4>Block level buttons</h4>
+    <button type="button" class="btn btn-primary btn-block">Button 1</button>
+    <h4>Active and disabled buttons</h4>
+    <button type="button" class="btn btn-primary active">Active</button>
+    <button type="button" class="btn btn-primary disabled">Disabled</button>
+
+    <h2>Glyphicons</h2>
+    <p>Envelope icon: <span class="glyphicon glyphicon-envelope"></span></p>
+    <p>Envelope icon as a link: <a href="#"><span class="glyphicon glyphicon-envelope"></span></a></p>
+    <p>Search icon: <span class="glyphicon glyphicon-search"></span></p>
+    <p>Search icon on a buttton: <button type="button" class="btn btn-default"><span class="glyphicon glyphicon-search"></span>Search</button></p>
+
+    <h2>Badges</h2>
+    <a href="#">News <span class="badge">5</span></a><br>
+    <a href="#">Comments <span class="badge">10</span></a><br>
+
+    <h2>Labels</h2>
+    <span class="label label-default">Default label</span>
+    <span class="label label-primary">Primary label</span>
+    <span class="label label-success">Success label</span>
+    <span class="label label-info">Info label</span>
+
+    <h2>Progress bar</h2>
+    <div class="progress">
+        <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 40%">40% Complete (Success)</div>
+    </div>
+    <div class="progress">
+        <div class="progress-bar progress-bar-info progress-bar-striped active" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width: 50%">50% Complete(info)</div>
+    </div>
+    <h3>Stacked progress bar</h3>
+    <div class="progress">
+        <div class="progress-bar progress-bar-success" role="progressbar" style="width: 40%">Free space</div>
+        <div class="progress-bar progress-bar-warning" role="progressbar" style="width: 10%">Warning</div>
+        <div class="progress-bar progress-bar-danger" role="progressbar" style="width: 20%">Danger</div>
+    </div>
+
+    <h2>Pagination</h2>
+    <ul class="pagination pagination-lg">
+        <li class="disabled"><a href="https://www.google.com">1</a></li>
+        <li><a href="../javascript.html">2</a></li>
+        <li><a href="../../practice/goal.html">3</a></li>
+        <li class="active"><a href="#">4</a></li>
+        <li><a href="#">5</a></li>
+    </ul>
+    <h2>Breadcrumbs</h2>
+    <ul class="breadcrumb">
+        <li class="disabled"><a href="https://www.google.com">1</a></li>
+        <li><a href="../javascript.html">2</a></li>
+        <li><a href="../../practice/goal.html">3</a></li>
+        <li class="active"><a href="#">4</a></li>
+        <li><a href="#">5</a></li>
+    </ul>
+
+    <h2>Pager element</h2>
+    <ul class="pager">
+        <li class="previous"><a href="#">Previous</a></li>
+        <li class="next"><a href="#">Next</a></li>
+    </ul>
+
+    <h2>List groups</h2>
+    <ul class="list-group">
+        <li class="list-group-item list-group-item-info">First item</li>
+        <li class="list-group-item">Second item</li>
+        <li class="list-group-item list-group-item-danger">Third item</li>
+        <a href="https://www.google.com" target="_blank" class="list-group-item">Google</a>
+    </ul>
+    <h3>badges in list groups</h3>
+    <ul class="list-group">
+        <li class="list-group-item active">New<span class="badge">12</span></li>
+        <li class="list-group-item">Deleted<span class="badge">5</span></li>
+        <li class="list-group-item disabled">Warning<span class="badge">3</span></li>
+    </ul>
+
+    <h2>html tags</h2>
+    <div class="list-group">
+        <a href="#" class="list-group-item active"><h4 class="list-group-item-heading">First list group Item Heading</h4>
+            <p class="list-group-item-text">List group item text</p></a>
+        <a href="#" class="list-group-item">
+            <h4 class="list-group-item-heading">Second list group item Heading</h4>
+            <p class="list-group-item-text">List group item text</p>
+        </a>
+    </div>
+    
+    <h2>Panels</h2>
+    <div class="panel panel-default">
+        <div class="panel-body">A basic panel</div>
+    </div>
+</div>
+</body>
+</html>

@@ -1,0 +1,38 @@
+body{
+    color: white;
+    font-family: Helvetica;
+}
+
+.container{
+    display: grid;
+    grid-template-rows: 2fr 2fr 2fr;
+    grid-template-columns: 10fr 10fr 10fr;
+    grid-template-areas:
+     "h h h"
+     "a b c";
+}
+
+div#header{
+    grid-area: h;
+    background-color: yellow;
+    color: black;
+}
+
+section#a{
+    grid-area: a;
+    background-color: dodgerblue;
+}
+
+section#b{
+    grid-area: b;
+    background-color: #4cae4c;
+}
+
+section#c{
+    grid-area: c;
+    background-color: #9013FE;
+}
+
+.pad{
+    padding: 5px;
+}

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>JAVASCRIPT</title>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+</head>
+<h1>My first Javascript</h1>
+<body>
+<button type="button" title="Shows time" onclick="document.getElementById('trial').innerHTML = Date()">Display date</button>
+<p id="trial"></p>
+
+<h2>Use Javascript to change Text</h2>
+<p>This example writes "Hello Javascript" into an HTML element with id="demo";</p>
+
+<p id="demo"></p>
+
+<script>
+    document.getElementById("demo").innerHTML = "Hello Javascript!";
+</script>
+
+<script>
+    function myFunction() {
+        document.getElementById("demo").style.fontSize = "25px";
+        document.getElementById("demo").style.color = "red";
+        document.getElementById("demo").style.backgroundColor = "yellow";
+    }
+</script>
+<noscript>Sorry your browser does not support JS</noscript>
+<button type="button" onclick="myFunction()">Click me</button>
+</body>
+</html>
